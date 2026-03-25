@@ -44,6 +44,8 @@ async function start() {
 
   const player = new Player(app);
 
+  console.log(22)
+
   const asteroids = [];
   for (let i = 0; i < ASTEROID_COUNT; i++) {
     const radius = ASTEROID_MIN_RADIUS + Math.random() * ASTEROID_RADIUS_RANGE;
